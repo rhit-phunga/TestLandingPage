@@ -5,7 +5,7 @@ import GetStarted from './GetStarted'
 
 const Hero = () => (
 
-    <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} `}>
+    <section id='about' className={`flex md:flex-row flex-col ${styles.paddingY} `}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}> 
         <div className="flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <p className={`${styles.paragraph}`}>
@@ -21,7 +21,7 @@ const Hero = () => (
       <ul className="block animate-text-slide-4 text-left leading-tight [&_li]:block">
         <li className="text-[#C42021]">Attacking</li>
         <li className='text-[#23c0d1]'>Defending</li>
-        <li className='text-[#00b800]'>Hacking</li>
+        <li className='text-[#00b800]'>Breaking</li>
         <li className='text-[#466060]'>Hardening</li>
         <li aria-hidden="true" className="text-[#C42021]">Attacking</li>
     </ul>

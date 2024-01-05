@@ -24,9 +24,19 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import rhit from './logo-RHIT-removebg.png';
+import add from './add.svg';
+import collab from './collab.svg';
+import upload from './upload.svg';
+import event from './event.png';
+import user from './userCircle.png';
 
 export {
   airbnb,
+  event,
+  user,
+  add,
+  collab,
+  upload,
   rhit,
   bill,
   binance,
